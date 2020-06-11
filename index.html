@@ -2,11 +2,14 @@
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
     <title>薛之谦</title>
     <style>
       table {
-        width: 388px;
+        width: 350px;
         table-layout: auto;
         border-spacing: 0;
         border-collapse: collapse;
@@ -16,9 +19,30 @@
         border: 1px solid black;
       }
     </style>
+    <style>
+      img {
+        max-width: 100%;
+      }
+    </style>
+    <style>
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    </style>
   </head>
   <body>
-    <h1>
+    <nav>
+      <ol>
+        <li><a href="#Joker Xue">个人简介</a></li>
+        <li><a href="#milestone">重要事件</a></li>
+        <li><a href="#achievement">个人成就</a></li>
+        <li><a href="#album">个人专辑</a></li>
+        <li><a href="#photograph">个人照</a></li>
+        <li><a href="#public welfare">公益活动</a></li>
+      </ol>
+    </nav>
+    <h1 id="Joker Xue">
       薛之谦
     </h1>
     <p>
@@ -27,7 +51,7 @@
       出生于上海，其母亲在其四岁时因心脏病去世。
       早年曾学习美术绘画，后赴瑞士就读格里昂酒店管理学院酒店管理专业。
     </p>
-    <h2>
+    <h2 id="milestone">
       重要事件
     </h2>
     <ul>
@@ -48,7 +72,7 @@
         2017年6月20日，入驻上海杜莎夫人蜡像馆，成为首位入驻上海杜莎音乐梦工厂的明星。
       </li>
     </ul>
-    <h2>
+    <h2 id="achievement">
       主要成就
     </h2>
     <ol>
@@ -71,7 +95,7 @@
         2018年7月至2019年5月，举办“摩天大楼”世界巡回演唱会，成为第一位在台北小巨蛋连开两场的大陆歌手。
       </li>
     </ol>
-    <h2>主要作品</h2>
+    <h2 id="album">主要作品</h2>
     <table>
       <thead>
         <tr>
@@ -122,13 +146,25 @@
         </tr>
       </tbody>
     </table>
-    <h2>生活照</h2>
+    <h2 id="photograph">生活照</h2>
 
-    <div><img width="400" src="images\1.jpg" alt="薛之谦" /></div>
-    <div><img width="400" src="images\2.jpg" alt="薛之谦" /></div>
-    <div><img width="400" src="images\3.jpg" alt="薛之谦" /></div>
+    <div>
+      <a href="images\1.jpg" target="_blank">
+        <img width="350" src="images\1.jpg" alt="薛之谦"
+      /></a>
+    </div>
+    <div>
+      <a href="images\2.jpg" target="_blank">
+        <img width="350" src="images\2.jpg" alt="薛之谦"
+      /></a>
+    </div>
+    <div>
+      <a href="images\3.jpg" target="_blank">
+        <img width="350" src="images\3.jpg" alt="薛之谦"
+      /></a>
+    </div>
 
-    <h2>社会公益</h2>
+    <h2 id="public welfare">社会公益</h2>
     <ol>
       <li>
         2007年8月，将专辑《你过得好吗》在网上拍卖，所得金额全数捐赠给失聪儿童。
@@ -148,5 +184,6 @@
         2017年7月20日，在重庆杜莎夫人蜡像馆揭幕活动现场，联合非盈利公益机构绿叶义工“爱心助飞梦想，高考圆梦行动”项目，资助6名重庆贫困学子完成大学学业，承担这些学生直到参加工作前的所有的学费。
       </li>
     </ol>
+    <div style="height: 750px;"></div>
   </body>
 </html>
